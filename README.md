@@ -1,1 +1,2 @@
-# Nutflux-Backend
+# nutflux
+Netflix like using VueJS and Laravel

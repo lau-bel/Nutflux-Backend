@@ -1,0 +1,37 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(http://visagesetcouleurs.be/BeCode/denise-jans-559588-unsplash.jpg);
+    background-position: center;
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows:15% 70% 15%;
+
+}
+
+.logo{
+    grid-column:1;
+    grid-row:1;
+}
+
+.boxuser{
+    grid-column:2/4;
+    grid-row:1/4;
+    display:flex;
+    position:relative;
+}
+
+.active{
+    position:absolute;
+    top:20%;
+    left:15%;
+    border: 4px solid #FCBAA5;
+    z-index:2;
+}
+.non-active{
+    position:absolute;
+    top:5%;
+    left:30%;
+    filter: blur(2px);
+    z-index:1;
+}
